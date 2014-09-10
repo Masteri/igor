@@ -26,7 +26,8 @@ body a{
 	margin-top:15px;
 
 }
-.nav_dot{
+
+.nav_dot {
 	padding-right:20px;
 	padding-top:15px;
 	padding-left: 3px;
@@ -34,12 +35,11 @@ body a{
 
 .loading_place {
 	position: absolute;
-	margin-top:100;
+	margin-top:100px;
 	display: block;
 	top:50px;
 	left:50%;
 }
-​
 
 .menu {
  display: block;
@@ -181,5 +181,5 @@ ul.menu li{
 
 a img {
 	border:0;
-	filter: 0;
+	filter:0;
 }

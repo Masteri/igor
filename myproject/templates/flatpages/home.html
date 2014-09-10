@@ -9,23 +9,27 @@
 {%block body%}
       <style>
       .container{
-      	width:835px;
+      	width:850px;
         margin-top: 300px;
       }
       </style>
       <div class="container">
+          {% comment %}
+          <!--
   	    <div class="right_main">
   	       {% thumbnail flatpage.image "78x116" crop="center" as im %}
             <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
   	    	{% endthumbnail %}
   	    </div>
-  	    <div class='left_main'>
+  	    -->
+          {% endcomment %}
+  	    <div class='left_main' align="center">
 	        <div><img src='{{STATIC_URL}}images/title.png'></div>
 			<ul class="menu">
 				<li><a href="/illustration/"><img src="{{STATIC_URL}}images/illustration_s.png"></a></li> <strong class='gray_dot'>&#183;</strong>
 				<li><a href="/storyboard/"><img src="{{STATIC_URL}}images/storyboard_s.png"></a></li> <strong class='gray_dot'>&#183;</strong>
 				<li><a href="/character_design/"><img src="{{STATIC_URL}}images/char_design_s.png"></a></li>&nbsp;<strong class='gray_dot'>&#183;</strong>
-				<li><a href="/about/"><img src="{{STATIC_URL}}images/about_s.png"></a></li><strong class='gray_dot'>&#183;</strong>
+				<li><a href="/sketch/"><img src="{{STATIC_URL}}images/sketch.png"></a></li><strong class='gray_dot'>&#183;</strong>
 				<li><a href="/contact/"><img src="{{STATIC_URL}}images/contact_s.png"></a></li>
 			</ul>
 		</div>

@@ -18,6 +18,7 @@ class Image(models.Model):
             ('illustration', 'Illustration'),
             ('storyboard', 'Storyboard'),
             ('character_design', 'Character Design'),
+            ('sketch', 'Sketch'),
         )
     title = models.CharField(max_length=222, blank=True)
     description = models.TextField(max_length=1022, blank=True)

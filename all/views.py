@@ -7,7 +7,8 @@ from sorl.thumbnail import get_thumbnail
 
 TITLE_DICT = {'illustration': 'illustration.jpg',
              'storyboard': 'storyboard.jpg',
-             'character_design': 'char_design.jpg'
+             'character_design': 'char_design.jpg',
+             'sketch': 'sketch.jpg'
 }
 PER_PAGE = 18
 

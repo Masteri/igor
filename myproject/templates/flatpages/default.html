@@ -41,12 +41,17 @@
 					<li><a href="/illustration/">Illustration</a></li>
 					<li><a href="/storyboard/">Storyboard</a></li>
 					<li><a href="/character_design/">Character Design</a></li>
+                    <li><a href="/sketch/">Sketch</a></li>
 			       {%ifequal flatpage.title "About"%}
 					<li><a href="/contact/">Contact</a></li>
 	                {%endifequal%}
-	                {%ifequal flatpage.title "Contact"%}
+
+	                {%comment%}
+                    {%ifequal flatpage.title "Contact"%}
 					<li><a href="/about/">About</a></li>
 	                {%endifequal%}
+                    {%endcomment%}
+
 				</ul>
 		</div>
     </div>
