@@ -42,14 +42,17 @@ body a{
 }
 
 .menu {
- display: block;
- margin-top: 15px;
+    display: block;
+    margin-top: 15px;
 }
 
 ul.menu li{
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
+    position: relative;
+	top: -60px;
+	left: 30px;	
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
@@ -168,9 +171,12 @@ ul.menu li{
 
 
 .gray_dot{
-  margin:0px 12px 0px 12px;
-  color: gray;
-  font-size:18px;
+    position: relative;
+	top: -60px;
+	left: 30px;	
+    margin:0px 12px 0px 12px;
+    color: gray;
+    font-size:18px;
 }
 
 .page_content{
